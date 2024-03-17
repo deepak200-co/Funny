@@ -69,7 +69,7 @@ function QuestionComponent() {
                 <div className="happy-gif-text">
                     <img src="https://media.tenor.com/E4od4SG3hjMAAAAi/bunny-bunnies.gif" alt='Kiss GiF' />
                     <p className="fade-in"><h2>Awww! Baby love you😘😘🥰💗</h2></p>
-                    //<img src="https://media.tenor.com/eiMqmu0vXz8AAAAi/kiss.gif" alt="Happy GIF" />
+                  /*  <img src="https://media.tenor.com/eiMqmu0vXz8AAAAi/kiss.gif" alt="Happy GIF" />*/
                     </div>
             )}
             {answer === '' && !loading && (
