@@ -4,7 +4,7 @@ import './Question.css';
 function QuestionComponent() {
     const [answer, setAnswer] = useState('');
     const [noResponses, setNoResponses] = useState([
-        "No",
+        "",
         "mari bettu cheyaku",
         "Nijanga vodhu aa😨",
         "Arey nuvu intha heartless aa 😞",
