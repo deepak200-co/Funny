@@ -56,7 +56,7 @@ function QuestionComponent() {
             )}
             {!loading && !showHappyGif && (
                 <>
-                    <button onClick={handleNoClick} className="option-button">{noResponses[noResponseIndex]}</button>
+                    <button onClick={handleNoClick} className="option-button"> No- {noResponses[noResponseIndex]}</button>
                     <button onClick={handleYesClick} style={{ fontSize: `${yesButtonSize}px` }} className="option-button">Yes</button>
                 </>
             )}
